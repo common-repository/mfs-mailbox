@@ -1,0 +1,147 @@
+/**
+ * Mailbox Integration specific CSS
+ *
+ * @package Mailbox 
+ * @author Mindfiresolutions
+ */
+
+/* css for show-mail functionality */ 
+.msg-body {
+    background: none repeat scroll 0 0 #EBEBEB;
+    border: 2px solid #C0C0C0;
+    border-radius: 12px 12px 12px 12px;
+    float: left;
+    height: auto;
+    padding: 15px;
+    width: 75%;
+}
+.show-label {
+    font-size: 14px;
+    font-weight: bold;
+	display: inline-block;
+	width: 70px;
+}
+.show-cnt {
+    margin-left: 16px;
+}
+
+/* css for compose-mail functionality */
+#mail-subject {
+	margin-left: 21px;
+	outline: medium none;
+	padding: 3px 8px;
+	width: 35%;
+}
+#user {
+	margin-left: 51px;
+	width: 30%;
+}
+.compose-lbl {
+	margin-left: 10px;
+	font-weight: bold;
+}
+#prev-mail-link {
+	background: url("../images/go-next.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	height: 22px;
+	text-indent: -999999em;
+	width: 25px;
+}
+#next-mail-link {
+    background: url("../images/go-previous.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 22px;
+    margin: 0 0 0 24px;
+    text-indent: -999999em;
+}
+#message-content {
+	width: 78%;
+}
+#prev-next-link {
+    float: right;
+    width: 50px;
+}
+#inbox-trash, #draft-delete, #sent-delete {
+    position: absolute;
+}
+.unread {
+    font-weight: bold;
+}
+.check-mail {
+    margin-left: 8px !important;
+}
+
+#prev-details {
+    background-color: #E2E2E2;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10px;
+}
+html .mceContentBody {
+    max-width: 100% !important;
+}
+#prev-details span {
+	clear: both;
+	display: block;
+}
+p.success {
+    border: 1px solid #009933;
+    border-radius: 6px 6px 6px 6px;
+    color: #009933;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.empty_msg {
+	text-align: center;
+	font-size: 17px !important;
+}
+
+h2.trash-title {
+    background: url("../images/trash.png") no-repeat scroll 0 8px transparent;
+}
+h2.drafts-title {
+    background: url("../images/draft.png") no-repeat scroll 0 8px transparent;
+}
+h2.sent-title {
+    background: url("../images/outbox.png") no-repeat scroll 0 8px transparent;
+}
+h2.inbox-title {
+    background: url("../images/inbox.png") no-repeat scroll 0 8px transparent;
+}
+h2#page-title {
+	padding-left: 40px;
+	height:30px;
+	padding-bottom: 20px;
+}
+
+select.userselect {
+	width: 35%;
+}
+#create-mail-form  label {
+}
+
+div.qq-upload-button {
+    background-color: #F5F5F5;
+    color: #000000;
+    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 12px !important;
+    line-height: 13px;
+    padding: 5px 2px;
+    text-decoration: none;
+	border: 1px solid #DFDFDF;
+}
+span.qq-upload-delete {
+    font-family: Verdana;
+    font-weight: bold;
+    cursor: pointer;	
+}
+span.qq-upload-delete:hover {
+    cursor: pointer;	
+}
+.wp-admin select[multiple] {
+    margin-left: 51px;
+}
